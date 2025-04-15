@@ -21,6 +21,7 @@
     <ItemGroup>
       <ProjectReference Include="..\KiloSharp.Domain\KiloSharp.Domain.csproj" />
       <ProjectReference Include="..\KiloSharp.Infrastructure\KiloSharp.Infrastructure.csproj" />
+      <ProjectReference Include="..\KiloSharp.TestUtils\KiloSharp.TestUtils.csproj" />
       <ProjectReference Include="..\KiloSharp\KiloSharp.csproj" />
     </ItemGroup>
 
