@@ -1,8 +1,34 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KiloSharp", "KiloSharp\KiloSharp.csproj", "{C4AB601D-FEBC-49B3-8685-0FAC086C4C1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KiloSharp.Domain", "KiloSharp.Domain\KiloSharp.Domain.csproj", "{A33F9781-7CDD-46EF-BF31-D6A0BC9E6D27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KiloSharp.Infrastructure", "KiloSharp.Infrastructure\KiloSharp.Infrastructure.csproj", "{7D8B4056-923B-49D9-9ACE-2AEF5A47968E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KiloSharp.Tests", "KiloSharp.Tests\KiloSharp.Tests.csproj", "{9A25F587-8287-4F9A-B320-0B58E17E60BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4AB601D-FEBC-49B3-8685-0FAC086C4C1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4AB601D-FEBC-49B3-8685-0FAC086C4C1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4AB601D-FEBC-49B3-8685-0FAC086C4C1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4AB601D-FEBC-49B3-8685-0FAC086C4C1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A33F9781-7CDD-46EF-BF31-D6A0BC9E6D27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A33F9781-7CDD-46EF-BF31-D6A0BC9E6D27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A33F9781-7CDD-46EF-BF31-D6A0BC9E6D27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A33F9781-7CDD-46EF-BF31-D6A0BC9E6D27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D8B4056-923B-49D9-9ACE-2AEF5A47968E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D8B4056-923B-49D9-9ACE-2AEF5A47968E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D8B4056-923B-49D9-9ACE-2AEF5A47968E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D8B4056-923B-49D9-9ACE-2AEF5A47968E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A25F587-8287-4F9A-B320-0B58E17E60BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A25F587-8287-4F9A-B320-0B58E17E60BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A25F587-8287-4F9A-B320-0B58E17E60BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A25F587-8287-4F9A-B320-0B58E17E60BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
